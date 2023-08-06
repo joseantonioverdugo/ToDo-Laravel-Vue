@@ -1,6 +1,6 @@
 import "./bootstrap";
 
 import { createApp } from "vue";
-import App from "./components/App.vue";
+import Home from "./components/Home.vue";
 
-createApp(App).mount("#app");
+createApp(Home).mount("#app");
