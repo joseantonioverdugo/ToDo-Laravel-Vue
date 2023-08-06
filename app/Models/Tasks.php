@@ -7,5 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Tasks extends Model
 {
+    protected $fillable = [
+        'task_name',
+        'task_description',
+        'task_status',
+        'task_category',
+    ];
+
     use HasFactory;
 }

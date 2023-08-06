@@ -1,6 +1,17 @@
 import "./bootstrap";
 
 import { createApp } from "vue";
-import Home from "./components/Home.vue";
+import App from "./components/App.vue";
 
-createApp(Home).mount("#app");
+import { createRouter, createWebHistory } from "vue-router";
+import { routes } from "./routes";
+
+const router = new createRouter({
+    history: createWebHistory(),
+    routes: routes,
+});
+
+const app = createApp(App);
+app.use(router);
+
+app.mount("#app");

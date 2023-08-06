@@ -43,7 +43,7 @@ class TasksController extends Controller
     public function store(Request $request)
     {
         $inputs = $request -> input();
-        $task = Task::create($inputs);
+        $task = Tasks::create($inputs);
         if($task){
             return response()->json([
                 'success' => true,
@@ -51,6 +51,7 @@ class TasksController extends Controller
                 'data' => $task
             ], 200);
          }else{
+             \Log::error('Error al crear la tarea: ' . json_encode($inputs));
             return response()->json([
             'success' => false,
             'message' => 'Task Not Created',
