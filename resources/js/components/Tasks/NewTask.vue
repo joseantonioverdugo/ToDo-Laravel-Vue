@@ -16,12 +16,18 @@
             </div>
             <div>
                 <label for="task_category">Task Category</label>
-                <input
+                <!-- <input
                     v-model="taskCategory"
                     type="text"
                     id="task_category"
                     required
-                />
+                /> -->
+                <select v-model="taskCategory" id="task_category">
+                    <option value="None">None</option>
+                    <option value="Work">Work</option>
+                    <option value="Home">Home</option>
+                    <option value="Personal">Personal</option>
+                </select>
             </div>
             <button type="submit">Create Task</button>
         </form>
