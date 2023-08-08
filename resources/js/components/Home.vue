@@ -1,7 +1,7 @@
 <template>
     <main class="main mt-5 px-0 container rounded">
         <div class="px-2">
-            <router-link class="btn btn-primary my-4" to="/newTask">
+            <router-link class="btn btn-normal my-4" to="/newTask">
                 Add Task
             </router-link>
         </div>

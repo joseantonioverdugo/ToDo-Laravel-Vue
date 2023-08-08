@@ -45,7 +45,7 @@
                                 <option value="Personal">Personal</option>
                             </select>
                         </div>
-                        <button type="submit" class="btn btn-primary mb-4">
+                        <button type="submit" class="btn btn-normal mb-4">
                             Create Task
                         </button>
                     </form>
@@ -53,7 +53,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col text-center">
-                    <router-link class="btn btn-primary" to="/">
+                    <router-link class="btn btn-normal" to="/">
                         Go Back
                     </router-link>
                 </div>

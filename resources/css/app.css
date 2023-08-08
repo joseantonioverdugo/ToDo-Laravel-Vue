@@ -53,3 +53,12 @@ body {
     background-color: #d23f3f;
     color: white;
 }
+
+.btn-normal {
+    background-color: #74a8da;
+    color: white;
+}
+.btn-normal:hover {
+    background-color: #4c7daa;
+    color: white;
+}
