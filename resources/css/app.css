@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    background-color: #f2eee3;
+}
+
+.view {
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    /* background-image: url("../assets/fondo.png"); */
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+.navbar {
+    background-color: #fde8c9;
+}
+.main {
+    /* background-color: #cfdddb; */
+}
+
+/* #004c22; */
+/* #fcb900 */
+
+.table-custom tbody tr:nth-child(odd) {
+    background-color: #deeced; /* Fondo blanco */
+}
+
+.table-custom tbody tr:nth-child(even) {
+    background-color: #fde8c9; /* Fondo gris claro */
+}
+
+.form {
+    background-color: #fde8c9;
+}
+
+.btn-update {
+    background-color: #74a8da;
+    color: white;
+}
+
+.btn-update:hover {
+    background-color: #4c7daa;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #fe4d4d;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #d23f3f;
+    color: white;
+}
